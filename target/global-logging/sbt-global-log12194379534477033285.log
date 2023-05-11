@@ -1,0 +1,165 @@
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.2 (Oracle Corporation Java 19)
+[debug]                         Load.loadUnit: plugins took 4.865625ms
+[debug]                         Load.loadUnit: defsScala took 0.001667ms
+[debug] [Loading] Scanning directory /Users/jackcviers/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/jackcviers/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.3795 ms
+[debug]                             Load.resolveProject(global-plugins) took 0.343958ms
+[debug]                           Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /Users/jackcviers/.sbt/1.0/plugins, plugins: List(<none>))) took 0.856667ms
+[debug] [Loading] Done in /Users/jackcviers/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]                         Load.loadUnit: loadedProjectsRaw took 1.21525ms
+[debug]                         Load.loadUnit: cleanEvalClasses took 0.003584ms
+[debug]                       Load.loadUnit(file:/Users/jackcviers/.sbt/1.0/plugins/, ...) took 6.259ms
+[debug]                     Load.apply: load took 6.632ms
+[debug]                     Load.apply: resolveProjects took 0.042833ms
+[debug]                     Load.apply: finalTransforms took 2.260333ms
+[debug]                     Load.apply: config.delegates took 0.101875ms
+[debug]                     Load.apply: Def.make(settings)... took 21.455125ms
+[debug]                     Load.apply: structureIndex took 5.191625ms
+[debug]                     Load.apply: mkStreams took 0.00175ms
+[info] loading global plugins from /Users/jackcviers/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]                   Load.defaultLoad until apply took 83.336583ms
+[debug]                                         Load.loadUnit: plugins took 5.637625ms
+[debug]                                         Load.loadUnit: defsScala took 0.001375ms
+[debug] [Loading] Scanning directory /Users/jackcviers/Documents/development/example-large-http4s/project/project/project
+[debug]                                           Load.loadUnit: mkEval took 0.099166ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/jackcviers/Documents/development/example-large-http4s/project/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.388416 ms
+[info] loading settings for project example-large-http4s-build-build-build from metals.sbt ...
+[debug]                                             Load.resolveProject(example-large-http4s-build-build-build) took 0.479167ms
+[debug]                                           Load.loadTransitive: finalizeProject(Project(id example-large-http4s-build-build-build, base: /Users/jackcviers/Documents/development/example-large-http4s/project/project/project, plugins: List(<none>))) took 0.998959ms
+[debug] [Loading] Done in /Users/jackcviers/Documents/development/example-large-http4s/project/project/project, returning: (example-large-http4s-build-build-build)
+[debug]                                         Load.loadUnit: loadedProjectsRaw took 4.702292ms
+[debug]                                         Load.loadUnit: cleanEvalClasses took 0.362375ms
+[debug]                                       Load.loadUnit(file:/Users/jackcviers/Documents/development/example-large-http4s/project/project/project/, ...) took 10.897959ms
+[debug]                                     Load.apply: load took 12.407791ms
+[debug]                                     Load.apply: resolveProjects took 0.133833ms
+[debug]                                     Load.apply: finalTransforms took 2.200792ms
+[debug]                                     Load.apply: config.delegates took 0.353416ms
+[debug]                                     Load.apply: Def.make(settings)... took 22.176375ms
+[debug]                                     Load.apply: structureIndex took 5.239959ms
+[debug]                                     Load.apply: mkStreams took 0.001417ms
+[info] loading project definition from /Users/jackcviers/Documents/development/example-large-http4s/project/project/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]                                   Load.loadUnit: plugins took 83.55025ms
+[debug]                                   Load.loadUnit: defsScala took 0.001459ms
+[debug] [Loading] Scanning directory /Users/jackcviers/Documents/development/example-large-http4s/project/project
+[debug]                                     Load.loadUnit: mkEval took 0.077375ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/jackcviers/Documents/development/example-large-http4s/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.592583 ms
+[info] loading settings for project example-large-http4s-build-build from metals.sbt ...
+[debug]                                       Load.resolveProject(example-large-http4s-build-build) took 6.651875ms
+[debug]                                     Load.loadTransitive: finalizeProject(Project(id example-large-http4s-build-build, base: /Users/jackcviers/Documents/development/example-large-http4s/project/project, plugins: List(<none>))) took 7.409708ms
+[debug] [Loading] Done in /Users/jackcviers/Documents/development/example-large-http4s/project/project, returning: (example-large-http4s-build-build)
+[debug]                                   Load.loadUnit: loadedProjectsRaw took 12.840625ms
+[debug]                                   Load.loadUnit: cleanEvalClasses took 0.601041ms
+[debug]                                 Load.loadUnit(file:/Users/jackcviers/Documents/development/example-large-http4s/project/project/, ...) took 97.1875ms
+[debug]                               Load.apply: load took 97.528959ms
+[debug]                               Load.apply: resolveProjects took 0.04075ms
+[debug]                               Load.apply: finalTransforms took 3.585042ms
+[debug]                               Load.apply: config.delegates took 0.098417ms
+[debug]                               Load.apply: Def.make(settings)... took 21.644458ms
+[debug]                               Load.apply: structureIndex took 5.477375ms
+[debug]                               Load.apply: mkStreams took 0.001541ms
+[info] loading project definition from /Users/jackcviers/Documents/development/example-large-http4s/project/project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Generated .bloop/example-large-http4s-build-build.json
+[success] Total time: 0 s, completed May 10, 2023, 6:44:10 PM
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]                             Load.loadUnit: plugins took 320.759958ms
+[debug]                             Load.loadUnit: defsScala took 0.001416ms
+[debug] [Loading] Scanning directory /Users/jackcviers/Documents/development/example-large-http4s/project
+[debug]                               Load.loadUnit: mkEval took 0.068375ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/jackcviers/Documents/development/example-large-http4s/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(metals.MetalsPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(org.scaladebugger.SbtJdiTools),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(metals.MetalsPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.scaladebugger.SbtJdiTools))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,org.scaladebugger.SbtJdiTools,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin,metals.MetalsPlugin)
+[debug] Plugins.deducer#function took 0.447125 ms
+[info] loading settings for project example-large-http4s-build from metals.sbt,plugins.sbt ...
+[debug]                                 Load.resolveProject(example-large-http4s-build) took 1.987417ms
+[debug]                               Load.loadTransitive: finalizeProject(Project(id example-large-http4s-build, base: /Users/jackcviers/Documents/development/example-large-http4s/project, plugins: List(<none>))) took 2.63ms
+[debug] [Loading] Done in /Users/jackcviers/Documents/development/example-large-http4s/project, returning: (example-large-http4s-build)
+[debug]                             Load.loadUnit: loadedProjectsRaw took 12.250667ms
+[debug]                             Load.loadUnit: cleanEvalClasses took 1.256833ms
+[debug]                           Load.loadUnit(file:/Users/jackcviers/Documents/development/example-large-http4s/project/, ...) took 334.522584ms
+[debug]                         Load.apply: load took 334.894625ms
+[debug]                         Load.apply: resolveProjects took 0.039583ms
+[debug]                         Load.apply: finalTransforms took 1.957125ms
+[debug]                         Load.apply: config.delegates took 0.087959ms
+[debug]                         Load.apply: Def.make(settings)... took 17.582708ms
+[debug]                         Load.apply: structureIndex took 4.851625ms
+[debug]                         Load.apply: mkStreams took 0.001541ms
+[info] loading project definition from /Users/jackcviers/Documents/development/example-large-http4s/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]                       Load.loadUnit: plugins took 417.162667ms
+[debug]                       Load.loadUnit: defsScala took 0.001375ms
+[debug] [Loading] Scanning directory /Users/jackcviers/Documents/development/example-large-http4s
+[debug]                         Load.loadUnit: mkEval took 0.085542ms
+[error] [/Users/jackcviers/Documents/development/example-large-http4s/build.sbt]:6: ';' expected but ',' found.
+[debug] > Exec(loadFailed, None, None)
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)

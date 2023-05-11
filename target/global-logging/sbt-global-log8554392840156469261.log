@@ -1,0 +1,8 @@
+[debug] > Exec(cleanexit, Some(ac4aa7bd-73aa-4297-8a9b-766b209bbf1e), Some(CommandSource(console0)))
+[error] Not a valid command: cleanexit (similar: client, exit)
+[error] Not a valid project ID: cleanexit
+[error] Expected ':'
+[error] Not a valid key: cleanexit (similar: clean, cleanIvy, cleanFiles)
+[error] cleanexit
+[error]          ^
+[debug] > Exec(shell, None, None)
