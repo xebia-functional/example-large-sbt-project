@@ -1,0 +1,21 @@
+[debug] Created transactional ClassFileManager with tempDir = /Users/jackcviers/Documents/development/example-large-http4s/hello-world-http4s/target/scala-3.1.0/classes.bak
+[debug] About to delete class files:
+[debug] We backup class files:
+[debug] Registering generated classes:
+[debug] 	HelloWorld$Greeting.class
+[debug] 	HelloWorld$Name$.class
+[debug] 	HelloWorld$Name.class
+[debug] 	HelloWorld$$anon$2.class
+[debug] 	HelloWorld$.class
+[debug] 	HelloWorld$Greeting$.class
+[debug] 	HelloWorld.class
+[debug] 	HelloWorld$$anon$1.class
+[debug] 	HelloWorld$Greeting.tasty
+[debug] 	HelloWorld$Name$.tasty
+[debug] 	HelloWorld$Name.tasty
+[debug] 	HelloWorld$$anon$2.tasty
+[debug] 	HelloWorld$.tasty
+[debug] 	HelloWorld$Greeting$.tasty
+[debug] 	HelloWorld.tasty
+[debug] 	HelloWorld$$anon$1.tasty
+[debug] Removing the temporary directory used for backing up class files: /Users/jackcviers/Documents/development/example-large-http4s/hello-world-http4s/target/scala-3.1.0/classes.bak
